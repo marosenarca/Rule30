@@ -3,7 +3,7 @@ import re
 def wrap(cells, rule):
     lencells = len(cells)
 
-    #formats integer to binary
+    #converts rule value to 8-bit binary format
     rulebits = '{0:08b}'.format(rule) 
 
     #generates neighbour sets
